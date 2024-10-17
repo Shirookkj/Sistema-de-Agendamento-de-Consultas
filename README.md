@@ -1,6 +1,7 @@
 # Sistema de Agendamento de Consultas
 
 Este projeto é um Sistema de Agendamento de Consultas em Java que permite o cadastro de pacientes e médicos, agendamento de consultas, verificação de disponibilidade e geração de relatórios. Ele foi desenvolvido utilizando conceitos de Programação Orientada a Objetos (POO).
+Grupo: Ana Pellegrino, Artur Uchôa, André Mota, Isabel Lugon e João Magalhães.
 
 ## Funcionalidades
 
