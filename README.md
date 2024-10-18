@@ -1,46 +1,44 @@
-# Sistema de Agendamento de Consultas
+# Sistema de Gerenciamento de Pedidos
 
-Este projeto é um Sistema de Agendamento de Consultas em Java que permite o cadastro de pacientes e médicos, agendamento de consultas, verificação de disponibilidade e geração de relatórios. Ele foi desenvolvido utilizando conceitos de Programação Orientada a Objetos (POO).
+Este projeto é um Sistema de Gerenciamento de Pedidos em Java que permite o registro de mesas, adição de pedidos, cálculo de totais e finalização de pedidos. Ele foi desenvolvido utilizando conceitos de Programação Orientada a Objetos (POO).
 Grupo: Ana Pellegrino, Artur Uchôa, André Mota, Isabel Lugon e João Magalhães.
 
 ## Funcionalidades
 
-- Cadastrar Pacientes: Permite criar novos registros de pacientes com nome, idade e CPF.
-- Cadastrar Médicos: Permite criar novos registros de médicos com nome, CRM, especialidade e disponibilidade.
-- Agendar Consultas: Os pacientes podem agendar consultas com médicos disponíveis em uma determinada especialidade.
-- Gerar Relatório de Consultas: Gera relatórios detalhados das consultas agendadas.
-- Listar Consultas por Paciente: Permite visualizar todas as consultas agendadas para um paciente específico.
+- Gerenciar Mesas: Permite criar novas mesas e verificar se estão disponíveis.
+- Registrar Pedidos: Os pedidos podem ser adicionados a mesas específicas com itens detalhados.
+- Fechar Pedidos: Permite finalizar pedidos e calcular o total a ser pago.
+- Gerar Relatórios de Vendas: Relatórios de vendas são gerados com detalhes dos pedidos e total de vendas.
 
 ## Estrutura do Projeto
 
 ### 1. Main.java
 - Arquivo principal que gerencia o fluxo do sistema.
-- Cria listas de pacientes, médicos e consultas.
 - Apresenta um menu interativo para escolher opções como:
-  - Cadastro de pacientes.
-  - Cadastro de médicos.
-  - Agendamento de consultas.
-  - Geração de relatórios de consultas.
-  - Listagem de consultas por paciente.
-- Usa as classes Paciente, Medico, e Consulta para operar sobre os dados.
+  - Registro de mesas.
+  - Adição de pedidos.
+  - Fechamento de pedidos.
+  - Geração de relatórios de vendas.
+- Usa as classes Mesa, Pedido e ItemDoPedido para operar sobre as mesas e pedidos.
 
-### 2. Paciente.java
-- Classe que representa um paciente.
-- Armazena informações como nome, idade e CPF.
+### 2. Mesa.java
+- Classe que representa uma mesa no restaurante.
+- Armazena o número da mesa e sua disponibilidade.
 - Principais métodos:
-  - Getters e Setters para acessar e modificar os dados do paciente.
-  - toString: Método que retorna uma representação textual do paciente.
+  - Verificar Disponibilidade: Retorna se a mesa está disponível.
+  - Definir Disponibilidade: Define se a mesa está disponível ou não.
 
-### 3. Medico.java
-- Classe que representa um médico.
-- Armazena informações como nome, CRM, especialidade e disponibilidade.
+### 3. Pedido.java
+- Classe que representa um pedido associado a uma mesa.
+- Armazena a lista de itens do pedido e informações sobre a mesa.
 - Principais métodos:
-  - Getters e Setters para acessar e modificar os dados do médico.
-  - toString: Método que retorna uma representação textual do médico.
+  - Adicionar Itens: Adiciona itens ao pedido.
+  - Calcular Total: Calcula o total do pedido com base nos itens adicionados.
+  - Fechar Pedido: Finaliza o pedido e torna a mesa disponível novamente.
+  - Gerar Relatório: Gera um relatório detalhado do pedido.
 
-### 4. Consulta.java
-- Classe que representa uma consulta agendada.
-- Armazena informações sobre o paciente, médico e a data da consulta.
+### 4. ItemDoPedido.java
+- Representa um item individual em um pedido.
+- Armazena o nome do item, quantidade e preço unitário.
 - Principais métodos:
-  - Getters para acessar os dados da consulta.
-  - toString: Método que retorna uma representação textual da consulta.
+  - Calcular Total: Calcula o total para o item com base na quantidade e preço unitário.
