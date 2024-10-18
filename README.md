@@ -42,3 +42,17 @@ Grupo: Ana Pellegrino, Artur Uchôa, André Mota, Isabel Lugon e João Magalhãe
 - Armazena o nome do item, quantidade e preço unitário.
 - Principais métodos:
   - Calcular Total: Calcula o total para o item com base na quantidade e preço unitário.
+
+
+# Quais médicos são os mais solicitados nas consultas?
+- Identificar quais médicos estão sendo mais requisitados pode ajudar na gestão de agendas, permitindo alocar melhor os médicos com maior demanda e garantir que a capacidade atenda às necessidades dos pacientes.
+
+# Qual especialidade médica tem a maior demanda?
+- Saber qual especialidade é mais solicitada permite à clínica ou hospital ajustar o quadro de profissionais, investir em novas contratações ou ampliar a capacidade de atendimentos em determinadas áreas.
+
+# Quais dias possuem o maior número de consultas agendadas?
+- Compreender os dias com maior movimento ajuda na gestão de recursos, como médicos, enfermeiros e espaço físico, otimizando a logística da clínica.
+# Qual é a taxa de consultas realizadas?
+- Analisar as taxas pode orientar mudanças na política de agendamento, como cobranças de taxas ou ajustes na forma de confirmação de consultas.
+# Qual o tempo médio entre o agendamento e a realização das consultas?
+- Saber o tempo médio de espera entre o agendamento e a consulta permite tomar medidas para reduzir o tempo de espera e melhorar a experiência do paciente.
