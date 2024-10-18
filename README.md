@@ -49,10 +49,3 @@ Grupo: Ana Pellegrino, Artur Uchôa, André Mota, Isabel Lugon e João Magalhãe
 
 # Qual especialidade médica tem a maior demanda?
 - Saber qual especialidade é mais solicitada permite à clínica ou hospital ajustar o quadro de profissionais, investir em novas contratações ou ampliar a capacidade de atendimentos em determinadas áreas.
-
-# Quais dias possuem o maior número de consultas agendadas?
-- Compreender os dias com maior movimento ajuda na gestão de recursos, como médicos, enfermeiros e espaço físico, otimizando a logística da clínica.
-# Qual é a taxa de consultas realizadas?
-- Analisar as taxas pode orientar mudanças na política de agendamento, como cobranças de taxas ou ajustes na forma de confirmação de consultas.
-# Qual o tempo médio entre o agendamento e a realização das consultas?
-- Saber o tempo médio de espera entre o agendamento e a consulta permite tomar medidas para reduzir o tempo de espera e melhorar a experiência do paciente.
